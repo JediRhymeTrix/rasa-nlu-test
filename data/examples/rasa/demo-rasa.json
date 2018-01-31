@@ -1,0 +1,59 @@
+{
+  "rasa_nlu_data": {
+    "regex_features": [
+      {
+        "name": "zipcode",
+        "pattern": "[0-9]{5}"
+      }
+    ],
+    "entity_synonyms": [
+      {
+        "value": "chinese",
+        "synonyms": [
+          "Chinese",
+          "Chines",
+          "chines"
+        ]
+      },
+      {
+        "value": "vegetarian",
+        "synonyms": [
+          "veggie",
+          "vegg"
+        ]
+      }
+    ],
+    "common_examples": [
+      {
+        "text": "apply leave",
+        "intent": "apply_leave",
+        "entities": []
+      },
+      {
+        "text": "i won't be coming tomorrow",
+        "intent": "apply_leave",
+        "entities": []
+      },
+      {
+        "text": "i am sick",
+        "intent": "apply_leave",
+        "entities": []
+      },
+      {
+        "text": "apply for reimbursement",
+        "intent": "apply_reimbursement",
+        "entities": []
+      },
+      {
+        "text": "reimburse 500 for yesterday's dinner",
+        "intent": "apply_reimbursement",
+        "entities": []
+      },
+      {
+        "text": "",
+        "intent": "null_intent",
+        "entities": []
+      }
+    ]
+  }
+}

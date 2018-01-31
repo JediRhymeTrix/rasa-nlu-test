@@ -1,0 +1,4 @@
+sklearn
+rasa_nlu
+rasa_nlu[spacy]
+rasa_nlu[mitie]
