@@ -4,7 +4,7 @@ testing rasa-nlu for a bot
 
 ### Commands:
 
-*NOTE: To use MITIE, download https://github.com/mit-nlp/MITIE/releases/download/v0.4/MITIE-models-v0.2.tar.bz2 and extract total_word_feature_extractor.dat to data/
+*NOTE: To use MITIE, download [MITIE-models-v0.2.tar.bz2](https://github.com/mit-nlp/MITIE/releases/download/v0.4/MITIE-models-v0.2.tar.bz2) and extract total_word_feature_extractor.dat to data/
 
 > **Run server:** docker run -p 5000:5000 --name rasa -v <path>\rasa-nlu-test\projects:/app/projects -v <path>\rasa-nlu-test\configs:/app/configs -v <path>\rasa-nlu-test\data:/app/data  rasa/rasa_nlu:latest-full\
 **Train:** python -m rasa_nlu.train -c configs/config_mitie_duckling.json (after "docker exec -it rasa bash")\
