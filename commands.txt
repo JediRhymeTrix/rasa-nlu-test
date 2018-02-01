@@ -1,4 +1,4 @@
 Run server: docker run -p 5000:5000 --name rasa -v <path>\rasa-nlu-test\projects:/app/projects -v <path>\rasa-nlu-test\data:/app/data  rasa/rasa_nlu:latest-full
-Train: python -m rasa_nlu.train -c sample_configs/config_spacy_duckling.json
+Train: python -m rasa_nlu.train -c sample_configs/config_spacy_duckling.json (after "docker exec -it rasa bash")
 Trainer: rasa-nlu-trainer --source <path>\rasa-nlu-test\data\examples\rasa\demo-rasa.json
 Test: endpoint - http://localhost:5000/parse method - POST body - {"q":"hello", "project": "default"} (JSON)
