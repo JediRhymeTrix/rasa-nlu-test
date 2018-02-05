@@ -50,8 +50,8 @@
         "entities": []
       },
       {
-        "text": "",
-        "intent": "null_intent",
+        "text": "reimburse",
+        "intent": "apply_reimbursement",
         "entities": []
       }
     ]
