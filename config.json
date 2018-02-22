@@ -16,7 +16,7 @@
     "log_file": null,
     "mitie_file": "data/total_word_feature_extractor.dat",
     "spacy_model_name": null,
-    "token": null,
+    "token": "VTGHIYKD7JPZMUSRG3RNJOIA7667XPHU",
     "cors_origins": [],
     "aws_endpoint_url": null,
     "max_number_of_ngrams": 7,

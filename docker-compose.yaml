@@ -1,0 +1,13 @@
+version: '3'
+services:
+  rasa:
+    build: .
+    container_name: rasa
+    image: rasa/rasa_nlu:latest-full
+    ports:
+    - "5000:5000"
+    volumes:
+    - C:\Users\Vedant\Documents\GitHub\rasa-nlu-test\projects:/app/projects
+    - C:\Users\Vedant\Documents\GitHub\rasa-nlu-test\data:/app/data
+    - C:\Users\Vedant\Documents\GitHub\rasa-nlu-test\configs:/app/configs
+    # - C:\Users\Vedant\Documents\GitHub\rasa-nlu-test\config.json:/app/config.json

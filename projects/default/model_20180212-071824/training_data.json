@@ -1,0 +1,593 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 27, 
+            "value": "attending a conference", 
+            "entity": "message_body"
+          }, 
+          {
+            "start": 28, 
+            "end": 42, 
+            "value": "{:to \"2018-02-02T19:00:00.000+05:30\", :from \"2018-02-02T12:00:00.000+05:30\"}", 
+            "entity": "datetime"
+          }
+        ], 
+        "intent": "ApplyLeave", 
+        "text": "I am attending a conference this afternoon"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 21, 
+            "end": 37, 
+            "value": "family emergency", 
+            "entity": "message_body"
+          }
+        ], 
+        "intent": "ApplyLeave", 
+        "text": "I need a leave for a family emergency"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 15, 
+            "end": 23, 
+            "value": "2018-02-03T00:00:00.000+05:30", 
+            "entity": "datetime"
+          }, 
+          {
+            "start": 28, 
+            "end": 44, 
+            "value": "personal reasons", 
+            "entity": "message_body"
+          }
+        ], 
+        "intent": "ApplyLeave", 
+        "text": "I need a leave tomorrow for personal reasons"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 10, 
+            "end": 29, 
+            "value": "attending a wedding", 
+            "entity": "message_body"
+          }, 
+          {
+            "start": 30, 
+            "end": 43, 
+            "value": "2018-02-03T00:00:00.000+05:30", 
+            "entity": "datetime"
+          }
+        ], 
+        "intent": "ApplyLeave", 
+        "text": "I will be attending a wedding next saturday"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 3, 
+            "end": 17, 
+            "value": "cellphone bill", 
+            "entity": "message_body"
+          }, 
+          {
+            "start": 21, 
+            "end": 32, 
+            "value": "1000", 
+            "entity": "amount_of_money"
+          }
+        ], 
+        "intent": "RequestReimbursement", 
+        "text": "My cellphone bill is rupees 1000"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 10, 
+            "end": 20, 
+            "value": "500", 
+            "entity": "amount_of_money"
+          }, 
+          {
+            "start": 25, 
+            "end": 29, 
+            "value": "fuel", 
+            "entity": "message_body"
+          }
+        ], 
+        "intent": "RequestReimbursement", 
+        "text": "Reimburse rupees 500 for fuel"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 4, 
+            "end": 19, 
+            "value": "trip to Chennai", 
+            "entity": "message_body"
+          }, 
+          {
+            "start": 25, 
+            "end": 36, 
+            "value": "5000", 
+            "entity": "amount_of_money"
+          }
+        ], 
+        "intent": "RequestReimbursement", 
+        "text": "The trip to Chennai cost 5000 rupees"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 18, 
+            "end": 34, 
+            "value": "attend a wedding", 
+            "entity": "message_body"
+          }, 
+          {
+            "start": 35, 
+            "end": 48, 
+            "value": "2018-02-10T00:00:00.000+05:30", 
+            "entity": "datetime"
+          }
+        ], 
+        "intent": "ApplyLeave", 
+        "text": "Will I be able to attend a wedding this saturday"
+      }, 
+      {
+        "entities": [], 
+        "intent": "ApplyLeave", 
+        "text": "apply for leave on next wednesday"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 20, 
+            "end": 31, 
+            "value": "i am unwell", 
+            "entity": "message_body"
+          }
+        ], 
+        "intent": "ApplyLeave", 
+        "text": "apply leave because i am unwell"
+      }, 
+      {
+        "entities": [], 
+        "intent": "ApplyLeave", 
+        "text": "apply leave for 12th december"
+      }, 
+      {
+        "entities": [], 
+        "intent": "ApplyLeave", 
+        "text": "apply leave for tomorrow"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 12, 
+            "end": 24, 
+            "value": "2018-01-31T00:00:00.000+05:30", 
+            "entity": "datetime"
+          }
+        ], 
+        "intent": "ApplyLeave", 
+        "text": "apply leave on wednesday"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 19, 
+            "value": "attending a wedding", 
+            "entity": "message_body"
+          }, 
+          {
+            "start": 20, 
+            "end": 29, 
+            "value": "2018-02-05T00:00:00.000+05:30", 
+            "entity": "datetime"
+          }
+        ], 
+        "intent": "ApplyLeave", 
+        "text": "attending a wedding next week"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 20, 
+            "end": 32, 
+            "value": "{:to \"2018-02-05T00:00:00.000+05:30\", :from \"2018-02-02T18:00:00.000+05:30\"}", 
+            "entity": "datetime"
+          }
+        ], 
+        "intent": "ApplyLeave", 
+        "text": "attending a wedding this weekend"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 19, 
+            "end": 24, 
+            "value": "2018-02-02T00:00:00.000+05:30", 
+            "entity": "datetime"
+          }
+        ], 
+        "text": "how is the weather today?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 19, 
+            "value": "how is the weather?", 
+            "entity": "message_body"
+          }
+        ], 
+        "text": "how is the weather?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 20, 
+            "value": "i am getting married", 
+            "entity": "message_body"
+          }, 
+          {
+            "start": 21, 
+            "end": 29, 
+            "value": "2018-02-03T00:00:00.000+05:30", 
+            "entity": "datetime"
+          }
+        ], 
+        "intent": "ApplyLeave", 
+        "text": "i am getting married tomorrow"
+      }, 
+      {
+        "entities": [], 
+        "intent": "ApplyLeave", 
+        "text": "i am sick"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 17, 
+            "value": "training wit", 
+            "entity": "message_body"
+          }
+        ], 
+        "text": "i am training wit"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 21, 
+            "value": "2018-02-03T00:00:00.000+05:30", 
+            "entity": "datetime"
+          }, 
+          {
+            "start": 30, 
+            "end": 54, 
+            "value": "i have to attend college", 
+            "entity": "message_body"
+          }
+        ], 
+        "intent": "ApplyLeave", 
+        "text": "i can't come tomorrow because i have to attend college"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 27, 
+            "value": "i have to go to a function ", 
+            "entity": "message_body"
+          }, 
+          {
+            "start": 27, 
+            "end": 35, 
+            "value": "2018-02-03T00:00:00.000+05:30", 
+            "entity": "datetime"
+          }
+        ], 
+        "intent": "ApplyLeave", 
+        "text": "i have to go to a function tomorrow"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 13, 
+            "value": "3", 
+            "entity": "duration"
+          }, 
+          {
+            "start": 27, 
+            "end": 35, 
+            "value": "2018-01-27T00:00:00.000+05:30", 
+            "entity": "datetime"
+          }
+        ], 
+        "text": "i need 3 days off starting saturday"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 15, 
+            "end": 23, 
+            "value": "2018-02-03T00:00:00.000+05:30", 
+            "entity": "datetime"
+          }, 
+          {
+            "start": 28, 
+            "end": 44, 
+            "value": "personal reasons", 
+            "entity": "message_body"
+          }
+        ], 
+        "intent": "ApplyLeave", 
+        "text": "i need a leave tomorrow for personal reasons"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 15, 
+            "value": "half day", 
+            "entity": "leave_half"
+          }, 
+          {
+            "start": 22, 
+            "end": 27, 
+            "value": "2018-01-29T00:00:00.000+05:30", 
+            "entity": "datetime"
+          }
+        ], 
+        "intent": "ApplyLeave", 
+        "text": "i need half day leave today"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 8, 
+            "end": 13, 
+            "value": "1000 ", 
+            "entity": "amount_of_money"
+          }
+        ], 
+        "intent": "RequestReimbursement", 
+        "text": "i spent 1000 on fuel on a business trip"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 8, 
+            "end": 18, 
+            "value": "500", 
+            "entity": "amount_of_money"
+          }
+        ], 
+        "intent": "RequestReimbursement", 
+        "text": "i spent 500 rupees on travel"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 2, 
+            "end": 11, 
+            "value": "spent 800", 
+            "entity": "amount_of_money"
+          }
+        ], 
+        "intent": "RequestReimbursement", 
+        "text": "i spent 800 on a cab"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 8, 
+            "end": 18, 
+            "value": "800", 
+            "entity": "amount_of_money"
+          }
+        ], 
+        "intent": "RequestReimbursement", 
+        "text": "i spent 800 rupees on a cab"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 23, 
+            "end": 36, 
+            "value": "2018-01-27T00:00:00.000+05:30", 
+            "entity": "datetime"
+          }
+        ], 
+        "intent": "ApplyLeave", 
+        "text": "i want to stay at home this saturday"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 30, 
+            "subentities": [
+              {
+                "start": 7, 
+                "end": 11, 
+                "value": "\"16th\"", 
+                "entity": "ordinal"
+              }
+            ], 
+            "end": 41, 
+            "value": "2018-02-16T00:00:00.000+05:30", 
+            "entity": "datetime"
+          }
+        ], 
+        "intent": "ApplyLeave", 
+        "text": "i want to watch black panther on the 16th"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 25, 
+            "value": "i will be at a conference", 
+            "entity": "message_body"
+          }, 
+          {
+            "start": 26, 
+            "end": 54, 
+            "value": "{:to \"2018-02-06T00:00:00.000+05:30\", :from \"2018-02-03T00:00:00.000+05:30\"}", 
+            "entity": "datetime"
+          }
+        ], 
+        "intent": "ApplyLeave", 
+        "text": "i will be at a conference from tomorrow through monday"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 30, 
+            "end": 41, 
+            "value": "2018-01-26T00:00:00.000+05:30", 
+            "entity": "datetime"
+          }
+        ], 
+        "intent": "ApplyLeave", 
+        "text": "i will be attending a wedding this friday"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 9, 
+            "end": 14, 
+            "value": "2018-01-25T00:00:00.000+05:30", 
+            "entity": "datetime"
+          }
+        ], 
+        "intent": "ApplyLeave", 
+        "text": "i'm sick today"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 22, 
+            "value": "had a little lamb", 
+            "entity": "message_body"
+          }
+        ], 
+        "text": "mary had a little lamb"
+      }, 
+      {
+        "entities": [], 
+        "intent": "ApplyLeave", 
+        "text": "need a leave"
+      }, 
+      {
+        "entities": [], 
+        "intent": "RequestReimbursement", 
+        "text": "please approve my reimbursement"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 22, 
+            "value": "fuel bill", 
+            "entity": "message_body"
+          }
+        ], 
+        "intent": "RequestReimbursement", 
+        "text": "reimburse my fuel bill"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 23, 
+            "value": "phone bill", 
+            "entity": "message_body"
+          }
+        ], 
+        "intent": "RequestReimbursement", 
+        "text": "reimburse my phone bill"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 10, 
+            "end": 19, 
+            "value": "2018-01-24T00:00:00.000+05:30", 
+            "entity": "datetime"
+          }
+        ], 
+        "intent": "RequestReimbursement", 
+        "text": "reimburse yesterday's food bill"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 4, 
+            "end": 15, 
+            "value": "ticket cost", 
+            "entity": "message_body"
+          }, 
+          {
+            "start": 20, 
+            "end": 30, 
+            "value": "500", 
+            "entity": "amount_of_money"
+          }
+        ], 
+        "intent": "RequestReimbursement", 
+        "text": "the ticket cost was 500 rupees"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 4, 
+            "end": 12, 
+            "value": "tickets ", 
+            "entity": "message_body"
+          }, 
+          {
+            "start": 17, 
+            "end": 27, 
+            "value": "500", 
+            "entity": "amount_of_money"
+          }
+        ], 
+        "intent": "RequestReimbursement", 
+        "text": "the tickets were 500 rupees each"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 11, 
+            "end": 27, 
+            "value": "family emergency", 
+            "entity": "message_body"
+          }, 
+          {
+            "start": 28, 
+            "end": 33, 
+            "value": "2018-02-02T00:00:00.000+05:30", 
+            "entity": "datetime"
+          }
+        ], 
+        "intent": "ApplyLeave", 
+        "text": "there is a family emergency today"
+      }
+    ], 
+    "entity_synonyms": [], 
+    "regex_features": []
+  }
+}
